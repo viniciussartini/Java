@@ -11,6 +11,7 @@ Inserir imagem.
 ![Class Rectangle](ClassRectangle.png)
 
 ### Fórmulas matemáticas
-\text{area} = \text{width} \cdot \text{height}
-\text{perimeter} = 2 \cdot (\text{width} + \text{height})
-\text{diagonal} = \sqrt{(\text{width})^2 + (\text{height})^2}
+
+**Área do retângulo:** $$\text{area} = \text{width} \cdot \text{height}$$
+**Perímetro do retângulo:** $$\text{perimeter} = 2 \cdot (\text{width} + \text{height})$$
+**Diagonal do retângulo:** $$\text{diagonal} = \sqrt{(\text{width})^2 + (\text{height})^2}$$
