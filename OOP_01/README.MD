@@ -6,5 +6,5 @@ Em seguida, mostrar o valor das áreas dos dois triângulos e dizer qual dos doi
 
 A fórmula para calcular a área de um triângulo à partir das medidas de seus lados a, b, c é a fórmula de **Heron**:
 ```math
-\[ \text{área} = \sqrt{p \cdot (p - a) \cdot (p - b) \cdot (p - c)} \]
+\text{área} = \sqrt{p \cdot (p - a) \cdot (p - b) \cdot (p - c)}
 ```
