@@ -7,6 +7,4 @@ Logo após, aumentar o salário do funcionário com base em uma porcentagem dada
 Criar a classe abaixo:
 
 ### Diagrama UML Classe
-
-Inserir imagem.
 ![Class Employee](https://github.com/viniciussartini/Java/blob/main/OOP_03/ClassEmployee.png)
