@@ -10,5 +10,5 @@ A fórmula para calcular a área de um triângulo à partir das medidas de seus 
 ```
 Onde:
 ```math
-\text{p} = \frac{a + b + c}{2} \
+\text{p} = \frac{a + b + c}{2}
 ```
