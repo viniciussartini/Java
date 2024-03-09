@@ -28,3 +28,8 @@
 .metadata/.mylyn/.taskListIndex/write.lock
 .metadata/.mylyn/.taskListIndex/segments_1
 .metadata/.log
+/.metadata/
+OOP_02/src/module-info.java
+OOP_02/.settings/org.eclipse.jdt.core.prefs
+OOP_02/.settings/org.eclipse.core.resources.prefs
+OOP_02/.classpath
