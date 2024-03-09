@@ -10,9 +10,9 @@
 
     Criar uma classe produto conforme abaixo:
 
-    ### Diagrama UML da Classe produto:
+### Diagrama UML da Classe produto:
 
-    ![Class prodcut] (D:\Dev\Java\OOP_02\ClassProduct.png)
+    ![Class prodcut] (https://github.com/viniciussartini/Java/blob/main/OOP_02/ClassProduct.png)
 ---
 ## Observações
 
