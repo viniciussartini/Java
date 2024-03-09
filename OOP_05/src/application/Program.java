@@ -2,6 +2,8 @@ package application;
 
 import java.util.Scanner;
 
+import entities.Student;
+
 public class Program {
 
 	public static void main(String[] args) {
@@ -22,7 +24,7 @@ public class Program {
 			System.out.println("Final Grade: " + student.finalGrade() + " PASS");
 		} else {
 			System.out.println("Final Grade: " + student.finalGrade() + " FAILED");
-			System.out.println("Missing " + student.missingPoints() + "POINTS");
+			System.out.println("Missing " + student.missingPoints() + "points");
 		}
 		
 		inputKeyboard.close();
