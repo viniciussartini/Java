@@ -9,4 +9,4 @@ Criar a classe abaixo:
 ### Diagrama UML Classe
 
 Inserir imagem.
-![]()
+![Class Employee](https://github.com/viniciussartini/Java/blob/main/OOP_03/ClassEmployee.png)
