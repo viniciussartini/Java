@@ -1,9 +1,14 @@
+# Exercício 01 - Programação Orientada à Objetos
+---
+## Problema
+Fazer um programa para ler as medidas dos lados de dois triângulos **X** e **Y** (suponha medidas válidas).
+Em seguida, mostrar o valor das áreas dos dois triângulos e dizer qual dos dois triângulos possui a maior área.
 
-FAZER UM PROGRAMA PARA LER AS MEDIDAS DOS LADOS DE DOIS TRIÂNGULOS
-X E Y (SUPONHA MEDIDAS VÁLIDAS). EM SEGUIDA, MOSTRAR O VALOR DAS ÁREAS DOS
-DOIS TRIÂNGULOS E DIZER QUAL DOS DOIS TRIÂNGULOS POSSUI A MAIOR ÁREA.
-
-A FÓRMULA PARA CALCULAR A ÁREA DE UM TRIÂNGULO A PARTIR DAS MEDIDAS DE SEUS
-LADOS a, b e c É A FÓRMULA DE HERON:
-
-area = sqrt(p(p-a)*(p-b)*(p-c))
+A fórmula para calcular a área de um triângulo à partir das medidas de seus lados a, b, c é a fórmula de **Heron**:
+```math
+\text{area} = \sqrt{p \cdot (p - a) \cdot (p - b) \cdot (p - c)}
+```
+Onde:
+```math
+\text{p} = \frac{a + b + c}{2}
+```
