@@ -160,3 +160,12 @@ public class Pessoa {
     }
 }
 ```
+#### Modificadores de acesso
+Modificadores de acesso determina quando uma classe pode acessar atributos e métodos de outras classes. A tabela abaixo mostra os níveis de acesso de cada modificador.
+
+Modificador de Acesso | Classe | Pacote | Subclasse | Módulo
+------- | -------- | -------- | -------- | --------
+public | Sim | Sim | Sim | Quando a classe for exportada
+protected | Sim | Sim | Subclasses de pacotes diferentes | Não
+sem modificador | Sim | Sim | Não | Não
+private | Sim | Não | Não | Não
