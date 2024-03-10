@@ -8,7 +8,7 @@
 [:link:Exercício 03](OOP_03/)
 [:link:Exercício 04](OOP_04/)
 [:link:Exercício 05](OOP_05/)
-[:link:Exercício 06]()
+[:link:Exercício 06](OOP_06/)
 
 </details>
 
