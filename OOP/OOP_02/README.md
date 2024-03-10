@@ -12,7 +12,8 @@ Criar uma classe produto conforme abaixo:
 
 ### Diagrama UML da Classe produto:
 
-![Class prodcut](https://github.com/viniciussartini/Java/blob/main/OOP_02/ClassProduct.png)
+![Class prodcut](ClassProduct.png)
+
 ---
 ## Observações
 
@@ -32,3 +33,5 @@ return name
 ```
 
 Quando chamamos a função ```System.out.println(product);``` para exibir as informações do produto, implicitamente, o programa chama o método ```toString()``` que foi criado.
+
+---
