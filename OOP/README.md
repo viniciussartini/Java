@@ -35,7 +35,7 @@ public class MinhaClasse {
     private tipo atributo2;
 
     // Construtor
-    public MinhaClasse (tipo variavelA, variavelB, variavelC) {
+    public MinhaClasse (tipo variavelA, tipo variavelB, tipo variavelC) {
         this.atributo1 = variavelA;
         this.atributo2 = variavelB;
         this.atributo3 = variavelC;
@@ -57,12 +57,13 @@ public class MinhaClasse {
     }
 }
 ```
+---
 ## Membros Estáticos
 Os **membros estáticos** são aqueles que pertencem à classe em si, e não a uma instância específica dessa classe. Isso significa que eles podem ser acessados diretamente através do nome da classe, sem a necessidade de criar um objeto. Existem dois tipos de membros estáticos: ***variáveis estáticas*** e ***métodos estáticos.***
 
 As *variáveis estáticas* são compartilhadas por todas as instâncias da classe e são inicializadas apenas uma vez, no momento em que a classe é carregada. Elas são úteis para armazenar valores que são comuns a todas as instâncias, como constantes ou contadores.
 
-Os *métodos estáticos* também pertencem à classe em si e **<u>não podem acessar variáveis de instância></u>**. Eles são chamados diretamente através do nome da classe e podem ser úteis para realizar operações que não dependem do estado de um objeto específico.
+Os *métodos estáticos* também pertencem à classe em si e **<u>não podem acessar variáveis de instância</u>**. Eles são chamados diretamente através do nome da classe e podem ser úteis para realizar operações que não dependem do estado de um objeto específico.
 
 Os membros estáticos são úteis quando você precisa compartilhar informações ou funcionalidades entre várias instâncias de uma classe, ou quando deseja acessar um método ou variável sem precisar criar um objeto.
 
@@ -80,11 +81,13 @@ public class MinhaClasse {
 ```
 Acessando membros estáticos:
 ```
-int valor = MinhaClasse.atributo;
+tipo minhaVariavel = MinhaClasse.atributo;
 MinhaClasse.metodo();
 ```
 Os métodos `Math` são exemplos de métodos estáticos.
+[:link: Class Math - Oracle](https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html)
 
+---
 ## Construtores, sobrecarga e encapsulamento
 Como falado anteriormente, o **método construtor** é um tipo especial de método que é responsável por inicializar um objeto. Ele é chamado automaticamente quando um objeto é instanciado a partir de uma classe e é usado para definir o estado inicial do objeto.
 
@@ -160,12 +163,23 @@ public class Pessoa {
     }
 }
 ```
-#### Modificadores de acesso
-Modificadores de acesso determina quando uma classe pode acessar atributos e métodos de outras classes. A tabela abaixo mostra os níveis de acesso de cada modificador.
+#### Modificadores
+Os modificadores de acesso determina quando uma classe pode acessar atributos e métodos de outras classes.
 
-Modificador de Acesso | Classe | Pacote | Subclasse | Módulo
-------- | -------- | -------- | -------- | --------
-public | Sim | Sim | Sim | Quando a classe for exportada
-protected | Sim | Sim | Subclasses de pacotes diferentes | Não
-sem modificador | Sim | Sim | Não | Não
-private | Sim | Não | Não | Não
+- `default` - Quando não especificamos na declaração. Pode ser acessado pro classes do mesmo pacote.
+- `public` - Pode ser acessado por qualquer classe.
+- `private` - Só pode ser acessado pela classe em que é declarado.
+- `protected` - Pode ser acessado pela classe em que é declarado e por suas subclasses.
+
+Outros modificadores serão discutidos posteriormente.
+
+---
+## Composição de objetos
+
+---
+## Herança e polimorfismo
+
+---
+## Classes e métodos `final` e `abstract`
+
+---

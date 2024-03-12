@@ -66,7 +66,7 @@ final double PI = 3.1415;
 
 > :warning: ***O tipo*** `long` ***deve ser declarado com*** `"l"` ***no final para não ser compactado para o tipo*** `int` ***para reduzir uso de memória.***
 
-> :warning: ***Variáveis do tipo*** `float` ***possuem 7 casas decimais após a virgula e devem ser declaradas com o caractere*** `"f"` ***no final, senão serão consideradas do tipo*** `double` ***que possui casas decimais após a vírgula.***
+> :warning: ***Variáveis do tipo*** `float` ***possuem 7 casas decimais após a virgula e devem ser declaradas com o caractere*** `"f"` ***no final, senão serão consideradas do tipo*** `double` ***que possui 15 casas decimais após a vírgula.***
 ---
 ## Entrada, saída e conversão de dados
 
@@ -122,7 +122,7 @@ long varLong = Long.parseLong(varString);
 float varFloat = Float.parseFloat(varString);
 double varDouble = Double.parseDouble(varString);
 ```
-##### Casting
+##### UpCasting
 ```
 double varDouble = (float) varFloat;
 float varFloat = (long)varLong;
@@ -265,7 +265,6 @@ while(condicao) {
     instrucoes;
 }
 ```
-> :warning: ***Para terminar a execução do*** `while`, ***dentro das instruções deve ter algum mecanismo para que a condição se torne falsa, senão ficará em loop infinito.***
 #### Do while
 Executa uma vez as instruções antes de fazer o teste da condição.
 ```
@@ -273,6 +272,7 @@ do {
     instrucoes;
 } while(condicao);
 ```
+> :warning: ***Para terminar a execução dos laços*** `while` ***e*** `do while`, ***dentro das instruções deve ter algum mecanismo para que a condição se torne falsa, senão ficará em loop infinito.***
 #### For
 ```
 for(int = 0; condicao; i++) {
@@ -287,16 +287,16 @@ for(int valor: meuVetor) {
     System.out.println(valor); // Imprime na tela cada um dos valores do vetor
 }
 ```
-> :warning: ***Dentro de uma estrutura de repetição, se o programa encontrar a instrução `continue` o laço é interrompido e desviado o inicio da estrutura, repetindo o código novamente.***
+> :warning: ***Dentro de uma estrutura de repetição, se o programa encontrar a instrução*** `continue` ***o laço é interrompido e desviado para o inicio da estrutura, repetindo o código novamente.***
 
-> :warning: ***Dentro de uma estrutura de repetição, se o programa encontrar a instrução `break` o laço é interrompido e desviado para fora da estrutura.***
+> :warning: ***Dentro de uma estrutura de repetição, se o programa encontrar a instrução*** `break` ***o laço é interrompido e desviado para fora da estrutura.***
 ---
 
 ## Métodos e funções
 As diferenças entre métodos e funções:
 
-- **Funções:** é um bloco de código reutilizável que não está associado a nenhuma classe. É um procedimento independente que realiza uma tarefa específica. Podem ser invocadas em qualquer lugar do código. Geralmente tem modificadores de acesso e sempre retornam valores.
-- **Métodos:** é um bloco de código reutilizável que está associado a uma classe. É uma ação que um objeto pode executar. Métodos são invocados através de objetos da classe em que estçao definidos. Geralmente não possuem modificadores de acesso e não retornam valores.
+- **Funções:** são blocos de código reutilizável que não está associado a nenhuma classe. É um procedimento independente que realiza uma tarefa específica. Podem ser invocadas em qualquer lugar do código. Geralmente tem modificadores de acesso e sempre retornam valores.
+- **Métodos:** são blocos de código reutilizável que está associado a uma classe. É uma ação que um objeto pode executar. Métodos são invocados através de objetos da classe em que estão definidos. Geralmente não possuem modificadores de acesso e não retornam valores.
 ##### Sintaxe de declaração de um método ou função
 ```
 <modificadores> <tipo_retorno> <nome_método> (<parametros>) {
@@ -309,6 +309,7 @@ As diferenças entre métodos e funções:
 - `public` - Pode ser acessado por qualquer classe.
 - `private` - Só pode ser acessado pela classe em que é declarado.
 - `protected` - Pode ser acessado pela classe em que é declarado e por suas subclasses.
+
 Outros modificadores serão discutidos posteriormente.
 ```
 public class Main
