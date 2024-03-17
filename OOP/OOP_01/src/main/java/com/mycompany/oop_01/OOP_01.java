@@ -33,5 +33,7 @@ public class OOP_01 {
         } else {
             System.out.println("Larger area: Y");
         }
+        
+        inputKeyboard.close();
     }
 }
