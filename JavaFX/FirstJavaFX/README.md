@@ -14,5 +14,16 @@ Essa primeira aplicação foi aprendendo como manipular `labels`, `ComboBox` e `
 
 ---
 
+## Funcionamento
+O funcionamento da aplicação é simples:
+
+- No Combo Box, ao selecionar o texto da lista, o texto *Combo Box Text* será substituído. Caso seja "Texto2" ou "Texto3" o `text field` abaixo será desabilitado;
+- O Text Field ao digitar um texto e pressionar enter, o texto *Text Field Text* será substituído, caso o Combo Box não esteja com os textos "Texto2" ou "Texto3";
+- O funcionamento do Choice Box é semelhante ao Combo Box, porém com textos diferentes;
+
+---
+
 ### Observações
 - Foi criado um pacote `views` para alocar o arquivo `main.fxml` e o `Controller.java`. Dentro do arquivo `main.fxml` no atributo `fx:controller` deve ficar dessa maneira `fx:controller="views.Controller"`;
+
+---
