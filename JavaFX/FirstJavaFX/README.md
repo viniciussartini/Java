@@ -1,18 +1,18 @@
-## Getting Started
+# Java FX - Primeira Aplicação
+---
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Introdução
+Primeira aplicação em Java FX com a IDE Visual Code e Scene Builder.
+Essa primeira aplicação foi aprendendo como manipular `labels`, `ComboBox` e `ChoiceBox`.
 
-## Folder Structure
+---
 
-The workspace contains two folders by default, where:
+## Configuração do ambiente
+- [:link:Configurando a variável de ambiente JAVA_HOME](https://www.baeldung.com/java-home-on-windows-mac-os-x-linux)
+- [:link: Download da biblioteca do Java FX](https://gluonhq.com/products/javafx/)
+- [:link: Configuração do Java FX](https://openjfx.io/openjfx-docs/)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+---
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+### Observações
+- Foi criado um pacote `views` para alocar o arquivo `main.fxml` e o `Controller.java`. Dentro do arquivo `main.fxml` no atributo `fx:controller` deve ficar dessa maneira `fx:controller="views.Controller"`;

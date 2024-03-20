@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.ChoiceBox?>
 <?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
-
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="views.Controller">
    <children>
       <Label layoutX="78.0" layoutY="75.0" text="Combo Box" />
       <ComboBox fx:id="comboBox" layoutX="150.0" layoutY="71.0" onAction="#selectText" prefWidth="150.0" promptText="Choose your Text" />
       <Label fx:id="lblComboBox" layoutX="367.0" layoutY="75.0" text="Combo Box Text" />
+      <TextField fx:id="tfText" layoutX="151.0" layoutY="133.0" onAction="#inputText" promptText="Input your text" />
+      <Label layoutX="89.0" layoutY="137.0" text="Text Field" />
+      <Label fx:id="lblTextField" layoutX="367.0" layoutY="137.0" text="Text Field Text" />
+      <Label layoutX="80.0" layoutY="192.0" text="Choice Box" />
+      <ChoiceBox fx:id="choiceBox" layoutX="150.0" layoutY="188.0" prefWidth="150.0" />
+      <Label fx:id="lblChoiceBox" layoutX="367.0" layoutY="192.0" text="Choice Box Text" />
    </children>
 </AnchorPane>
